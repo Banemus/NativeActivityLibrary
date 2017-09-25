@@ -1,6 +1,15 @@
 package craftypotions.com.nativeplugin;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
+import android.support.v4.content.FileProvider;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.channels.FileChannel;
 
 public class NativeClass
 {
@@ -54,6 +63,8 @@ public class NativeClass
         ContactDataRetriever;
 
     // -- PRIVATE
+
+    // .. OPERATIONS
 
     // .. ATTRIBUTES
 }

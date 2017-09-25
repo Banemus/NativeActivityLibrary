@@ -118,7 +118,6 @@ public class Contact
         String message
         )
     {
-
     }
 
     // ~~
